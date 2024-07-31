@@ -9,8 +9,8 @@ const OMNEEFxTrading: React.FC = () => {
   return (
     <div className="container lg:px-32 mx-auto flex flex-col lg:flex-row items-center gap-8 py-4 my-44">
       <div className="flex-1">
-        <h1 className="text-3xl font-bold">Maîtrisez la bourse avec OMNEEFx</h1>
-        <p className="mt-2">OMNEEFx offre des formations dynamiques, complètes, adaptées à tous les niveaux pour exceller en bourse.</p>
+        <h1 className="text-5xl font-bold">Maîtrisez la bourse <br /> avec OMNEEFx</h1>
+        <p className="mt-2">OMNEEFx offre des formations dynamiques, complètes, <br /> adaptées à tous les niveaux pour exceller en bourse.</p>
         <img src={womanWorking} alt="Woman working" className="mt-4 w-full mx-auto rounded" style={{ boxShadow: '-30px 30px 0px 0px #363795' }} />
       </div>
       <div className="flex-1 grid grid-cols-1 md:grid-cols-2 gap-4 self-end">
@@ -28,7 +28,7 @@ const OMNEEFxTrading: React.FC = () => {
             <img src={icon2} alt="Formation Avancée" className="w-12 h-12 mt-4" />
             <div>
               <h2 className="card-title">Formation Avancée</h2>
-              <p>Offre une connaissance approfondie et des outils utiles pour les traders experts.</p>
+              <p>Offre une connaissance approfondie et des outils utiles pour améliorer vos performances.</p>
             </div>
           </div>
         </div>
@@ -37,7 +37,7 @@ const OMNEEFxTrading: React.FC = () => {
             <img src={icon3} alt="Psychologie" className="w-12 h-12 mt-4" />
             <div>
               <h2 className="card-title">Psychologie</h2>
-              <p>Contrôlez vos émotions, restez discipliné pour des décisions rationnelles.</p>
+              <p>Maîtriser ses émotions et rester discipliné pour prendre des décisions rationnelles.</p>
             </div>
           </div>
         </div>
